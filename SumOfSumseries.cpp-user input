@@ -1,0 +1,21 @@
+
+user input:
+      #include<bits/stdc++.h>
+      using namespace std;
+      static long SumOfSumseries(int n){
+      long sum=0L;
+      for(int i=1;i<=n;i++){
+        sum=sum+(i*(i+1)/2);
+    }
+    return sum;
+}
+     int main(){
+     int n;
+    cout<<"Enter n:";
+     cin>>n;
+    cout<<SumOfSumseries(n);
+}
+
+output:
+Enter n:5
+35
